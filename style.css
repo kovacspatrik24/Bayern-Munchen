@@ -1,0 +1,51 @@
+body {
+    background-image: url(allianz_arena7.jpg);
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 4%;
+    height: 4%;
+    padding-left: 60px;
+    display: flex;
+    margin-right: 30px;
+   
+}
+
+.fej {
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+
+}
+
+.felsorolas {
+    background-color: darkred;
+    display: flex;
+    padding-left: 300px;           
+    font-size: 1.5em;
+    color: white;
+    font-family: sans-serif;
+}
+
+.felsorolas p {
+    margin-right: 200px;
+
+}
+
+a:visited, a:hover, a:active {
+    color: white;
+} 
+
+.felsorolas a {
+    text-decoration: none;
+    color: white;
+}
