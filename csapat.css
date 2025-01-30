@@ -1,0 +1,36 @@
+.neuer {
+    width: 30%;
+}
+
+.peretz {
+    width: 30%;
+}
+
+.ulreich {
+    width: 30%;
+    height: 10%;
+}
+
+p {
+    font-size: 3em;
+}
+
+h1 {
+    font-size: 7em;
+    text-align: center;
+}
+
+.kapusok {
+    display: flex;
+    align-items: center;
+}
+
+.kapusok p {
+    margin-right: 20px;
+}
+
+.kapusok img {
+    width: 400px;
+    height: auto;
+    margin-left: 10px;
+}

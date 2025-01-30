@@ -1,5 +1,6 @@
 body {
-    background-image: url(allianz_arena7.jpg);
+    background-image: url(/forrasok/allianz_arena7.jpg);
+    background-attachment: fixed;
     margin: 0;
 }
 
