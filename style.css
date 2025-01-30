@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik", serif;
+}
+
+
+
+
+
+
 body {
     background-image: url(/forrasok/allianz_arena7.jpg);
     background-attachment: fixed;
@@ -8,7 +19,6 @@ h1 {
     color: white;
     font-size: 3em;
     margin-right: 20px;
-    font-family: sans-serif;
 }
 
 .logo {
@@ -34,7 +44,6 @@ h1 {
     padding-left: 300px;           
     font-size: 1.5em;
     color: white;
-    font-family: sans-serif;
 }
 
 .felsorolas p {
