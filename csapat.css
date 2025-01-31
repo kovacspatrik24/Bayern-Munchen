@@ -2,21 +2,8 @@
 
 body {
     font-family: "Rubik", serif;
-    background-image: url(/forrasok/palya.jpg);
+    background-image: url(forrasok/palya3.webp);
     background-size: cover;
-}
-
-.neuer {
-    width: 30%;
-}
-
-.peretz {
-    width: 30%;
-}
-
-.ulreich {
-    width: 30%;
-    height: 10%;
 }
 
 p {
@@ -42,3 +29,7 @@ h1 {
     height: auto;
     margin-left: 10px;
 }
+
+a:visited, a:hover, a:active {
+    color: black;
+} 
