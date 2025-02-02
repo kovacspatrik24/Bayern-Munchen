@@ -3,12 +3,6 @@
 body {
     font-family: "Rubik", serif;
 }
-
-
-
-
-
-
 body {
     background-image: url(/forrasok/allianz_arena7.jpg);
     background-attachment: fixed;
@@ -27,21 +21,21 @@ h1 {
     padding-left: 60px;
     display: flex;
     margin-right: 30px;
-   
+
 }
 
 .fej {
-    background-color: red; 
+    background-color: red;
     display: flex;
     align-items: center;
-    justify-content: flex-start; 
+    justify-content: flex-start;
 
 }
 
 .felsorolas {
     background-color: darkred;
     display: flex;
-    padding-left: 300px;           
+    padding-left: 300px;
     font-size: 1.5em;
     color: white;
 }
@@ -53,9 +47,31 @@ h1 {
 
 a:visited, a:hover, a:active {
     color: white;
-} 
+}
 
 .felsorolas a {
     text-decoration: none;
     color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 250px;
+    padding-left: 125px;
+    flex-wrap: wrap;
+    margin-top: 125px;
+}
+
+.bolt, .gol, .hirek {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    width: 400px;
+}
+
+.bolt img, .gol img, .hirek img {
+    width: 100%; 
+    height: auto;
 }
