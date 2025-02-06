@@ -38,14 +38,21 @@ h1 {
     padding-left: 300px;
     font-size: 1.5em;
     color: white;
+    gap: 200px;
 }
 
 .felsorolas p {
-    margin-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
 
 }
 
 a:visited, a:hover, a:active {
+    color: black;
+}
+
+a {
     color: black;
 }
 
@@ -74,4 +81,33 @@ a:visited, a:hover, a:active {
 .bolt img, .gol img, .hirek img {
     width: 100%; 
     height: auto;
+}
+
+#csapat {
+    background-color: darkred;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid darkred;
+}
+
+#csapat:hover {
+    transform: scale(1.1);
+    background-color: rgb(252, 66, 66);
+    border-radius: 20px;
+}
+
+#linkek {
+    background-color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+    border : 10px solid darkred;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 10px solid white;
+}
+
+#linkek:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
