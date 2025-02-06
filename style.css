@@ -87,6 +87,7 @@ a {
 #csapat {
     background-color: darkred;
     padding-left: 40px;
+    margin-left: 80px;
     padding-right: 40px;
     border: 2px solid darkred;
 }
