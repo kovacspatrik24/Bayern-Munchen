@@ -1,4 +1,53 @@
+
+.fooldal {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 4%;
+    height: 4%;
+    padding-left: 60px;
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.fej {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited, a:hover, a:active {
+    color: white;
+}
+
 h1 {
     text-align: center;
     font-size: 3.5em;
+}
+
+.bundesliga {
+    background-color: red;
+    padding-bottom: 207px;
+}
+
+.bundesliga img {
+    width: 500px;
+    float: left;
+}
+
+.bundesliga p {
+    font-size: 3em;
+    text-align: right;
+    margin-right: 150px;
 }
