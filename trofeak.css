@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(247, 78, 78);
+}
+
 
 .fooldal {
     color: rgb(255, 255, 255);
@@ -38,7 +42,8 @@ h1 {
 
 .bundesliga {
     background-color: red;
-    padding-bottom: 207px;
+    display: flex;
+    align-items: center;
 }
 
 .bundesliga img {
@@ -48,6 +53,7 @@ h1 {
 
 .bundesliga p {
     font-size: 3em;
+    font-weight: bold;
     text-align: right;
-    margin-right: 150px;
+    margin-left: 900px;
 }
