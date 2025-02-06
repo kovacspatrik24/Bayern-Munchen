@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     background-color: rgb(247, 78, 78);
+    font-family: "Rubik", serif;
 }
 
 
@@ -23,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    border-radius: 20px;
 
 }
 
@@ -44,16 +48,107 @@ h1 {
     background-color: red;
     display: flex;
     align-items: center;
+    border-radius: 20px;
 }
 
 .bundesliga img {
     width: 500px;
     float: left;
+    border-radius: 20px;
 }
 
 .bundesliga p {
     font-size: 3em;
     font-weight: bold;
     text-align: right;
-    margin-left: 900px;
+    margin-left: 800px;
+    margin-right: 50px;
+}
+
+.nemetkupa {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.nemetkupa img {
+    width: 500px;
+    float: left;
+    border-radius: 20px;
+}
+
+.nemetkupa p {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 800px;
+    margin-right: 50px;
+}
+
+.bl {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.bl img {
+    width: 500px;
+    float: left;
+    border-radius: 20px;
+}
+
+.bl p {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 800px;
+    margin-right: 50px;
+}
+
+.nemetszuperk {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.nemetszuperk img {
+    width: 500px;
+    float: left;
+    border-radius: 20px;
+}
+
+.nemetszuperk p {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 800px;
+    margin-right: 50px;
+}
+
+.uefaszuperkupa {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.uefaszuperkupa img {
+    width: 500px;
+    float: left;
+    border-radius: 20px;
+}
+
+.uefaszuperkupa p {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 800px;
+    margin-right: 50px;
 }
