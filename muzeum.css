@@ -38,3 +38,42 @@ a {
 a:visited, a:hover, a:active {
     color: white;
 }
+
+details {
+    width: 400px;
+    border: 2px solid rgb(124, 1, 1);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f73232;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 100px;
+}
+
+summary {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] {
+    background-color: #e0e0e0;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+
+.oldalak {
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+}
