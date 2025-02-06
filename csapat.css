@@ -6,6 +6,29 @@ body {
     background-size: cover;
 }
 
+.fooldal {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 4%;
+    height: 4%;
+    padding-left: 60px;
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.fej {
+    background-color: rgb(10, 102, 25);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
 p {
     font-size: 3em;
 }
