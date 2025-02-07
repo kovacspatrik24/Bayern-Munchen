@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bejelentkezés</title>
+    <link rel="stylesheet" href="bejelentkezes.css">
 </head>
 <body>
-    
+    <h1><a href="index.html">Bejelentkezés</a></h1>
+    <form action="submit" method="POST">
+        <label for="first_name">Keresztnév:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Vezetéknév:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="email">Email cím:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="birth_date">Születési dátum:</label><br>
+        <input type="date" id="birth_date" name="birth_date" required><br><br>
+
+        <label for="phone">Telefonszám:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10 számjegy" required><br><br>
+
+        <input type="submit" value="Bejelentkezek">
+        <input type="reset" value="Törlés">
+    </form>
 </body>
 </html>
