@@ -15,6 +15,23 @@ h1 {
     margin-right: 20px;
 }
 
+.bejelentkezes {
+    font-size: 2em;
+    margin-left: 900px;
+    background-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid darkred;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.bejelentkezes:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 46, 46);
+    border-radius: 20px;
+}
+
 .logo {
     width: 4%;
     height: 4%;
@@ -90,6 +107,13 @@ a {
     margin-left: 80px;
     padding-right: 40px;
     border: 2px solid darkred;
+    font-weight: bold;
+}
+
+#csapat:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 46, 46);
+    border-radius: 20px;
 }
 
 .gol:hover {
